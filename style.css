@@ -3,21 +3,17 @@
 body {
 	background-image: linear-gradient(to right, #6a11cb 50%, #2575fc 100%);
 	font-family: 'Poppins', sans-serif;
-
-
 	} 
 
 .container {
-	margin: 50px 100px 50px 100px;
+	margin: 60px 350px 60px 350px;
 	padding: 30px 60px;
 	border: 25px solid #fff21e;
 	background: #f5f6fa;
-	
 }
 
 .download-icon {
 	font-size: 1.5em;
-
 }
 
 
@@ -33,5 +29,32 @@ header {
 
 header .resume-title h3 {
 	font-weight: 200; 
+}
+
+.fa-file-pdf {
+	color:red;
+}
+
+.btn-transparent .svg {
+  height: 20px;
+  vertical-align: text-bottom;
+  fill: #ff4d57;
+}
+
+a.btn-transparent{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 600;
+	color:#2d3436;
 
 }
+
+
+
+
+
+
+
+
+
+
