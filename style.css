@@ -1,5 +1,13 @@
 
 
 body {
-	background-image: linear-gradient(to right, #6a11cb 30%, #2575fc 100%);
+	background-image: linear-gradient(to right, #6a11cb 50%, #2575fc 100%);
+
+
 	} 
+
+.container {
+	margin: 50px 100px 50px 100px;
+	border: 25px solid #fff21e;
+	background: #f5f6fa;
+}
