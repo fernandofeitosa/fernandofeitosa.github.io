@@ -1,14 +1,18 @@
 
 
 body {
-	background-image: linear-gradient(to right, #6a11cb 50%, #2575fc 100%);
+	background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	font-family: 'Poppins', sans-serif;
 	} 
 
 .container {
 	margin: 60px 350px 60px 350px;
 	padding: 30px 60px;
-	border: 25px solid #fff21e;
+	border: 25px solid #f2c35f;
 	background: #f5f6fa;
 }
 
@@ -83,11 +87,13 @@ header .border {
 hr {
     display: block;
     height: 1px;
-    border-top: 4px solid red;
+    border-top: 4px solid #f2795f;
     margin: 1em 0;
     margin-left: 150px;
     padding: 0;
 }
+
+
 
 
 @media all and (max-width: 479px) {
