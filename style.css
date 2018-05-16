@@ -69,7 +69,25 @@ header .border {
   background-color: #ff4d57;
 }
 
+.designation {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	text-align: auto;
+	font-size: 15px;
+	font-weight: bold;
+	color:#2d3436;
+	margin-left: 100px;
+	text-transform: uppercase;
+}
 
+hr {
+    display: block;
+    height: 1px;
+    border-top: 4px solid red;
+    margin: 1em 0;
+    margin-left: 150px;
+    padding: 0;
+}
 
 
 @media all and (max-width: 479px) {
