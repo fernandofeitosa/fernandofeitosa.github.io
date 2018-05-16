@@ -27,10 +27,6 @@ header {
   overflow: hidden;
 }
 
-header .resume-title h3 {
-	font-weight: 200; 
-}
-
 .fa-file-pdf {
 	color:red;
 }
@@ -48,6 +44,40 @@ a.btn-transparent{
 	color:#2d3436;
 
 }
+
+header .resume-title {
+position: absolute;
+  bottom: 75px;
+  width: calc(100% - 150px);
+  z-index: 2;
+}
+
+header .resume-title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  font-weight:900;
+  text-transform: uppercase;
+  color: #1f1f29;
+  line-height: 0.30em;
+  letter-spacing: 0.08em;
+}
+
+header .border {
+  width: 100%;
+  max-width: 290px;
+  height: 10px;
+  background-color: #ff4d57;
+}
+
+
+
+
+@media all and (max-width: 479px) {
+  header .resume-title h2 {
+    font-size: 45px;
+  }
+
+
 
 
 
