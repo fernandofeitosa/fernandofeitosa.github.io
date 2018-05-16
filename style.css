@@ -2,12 +2,36 @@
 
 body {
 	background-image: linear-gradient(to right, #6a11cb 50%, #2575fc 100%);
+	font-family: 'Poppins', sans-serif;
 
 
 	} 
 
 .container {
 	margin: 50px 100px 50px 100px;
+	padding: 30px 60px;
 	border: 25px solid #fff21e;
 	background: #f5f6fa;
+	
+}
+
+.download-icon {
+	font-size: 1.5em;
+
+}
+
+
+header {
+  position: relative;
+  height: 510px;
+  background-image: url('img/cow.jpg');
+  background-position: right top;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+header .resume-title h3 {
+	font-weight: 200; 
+
 }
