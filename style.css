@@ -64,6 +64,7 @@ header .border {
 
 .download-icon {
 	font-size: 1.5em;
+  font-weight: lighter;
 }
 
 .fa-file-pdf {
@@ -74,6 +75,7 @@ header .border {
   height: 20px;
   vertical-align: text-bottom;
   fill: #ff4d57;
+  margin-right: 5px;
 }
 
 a.btn-transparent{
@@ -119,7 +121,13 @@ hr {
 	color:#ff4d57;	
 }
 
+.about h2{
+  text-transform: uppercase;
+}
 
+.about {
+  padding: 0 ;
+}
 
 
 
