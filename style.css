@@ -17,23 +17,19 @@ body {
 }
 
 header {
-  position: relative;
-  height: 510px;
-  background-image: url('img/profile.png');
+  height: 40px;
+}
+
+.resume-title {
+ background-image: url('img/profile.png');
   background-position: right top;
   background-size: 25%;
   background-repeat: no-repeat;
   overflow: hidden;
+  padding-top: 100px;
 }
 
-header .resume-title {
-position: absolute;
-  bottom: 75px;
-  width: calc(100% - 150px);
-  z-index: 2;
-}
-
-header .resume-title h1 {
+.resume-title h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   font-weight:900;
@@ -43,12 +39,6 @@ header .resume-title h1 {
   letter-spacing: 0.08em;
 }
 
-header .border {
-  width: 100%;
-  max-width: 290px;
-  height: 10px;
-  background-color: #ff4d57;
-}
 
 .designation {
 	font-family: 'Montserrat', sans-serif;
@@ -127,7 +117,7 @@ hr {
 }
 
 .about {
-  padding: 0 250px 100px 250px;
+  padding: 0 100px 100px 100px;
 }
 
 
