@@ -1,5 +1,4 @@
 
-
 body {
 	background: url(img/background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -10,14 +9,14 @@ body {
 	} 
 
 .container {
-	margin: 60px 250px 60px 250px;
-	padding: 30px 60px;
+	margin: 5% 15% 5% 15%;
+	padding: 2% 5%;
 	border: 25px solid #f2c35f;
 	background: #f5f6fa;
 }
 
 header {
-  height: 40px;
+  height: 6%;
 }
 
 .resume-title {
@@ -26,12 +25,16 @@ header {
   background-size: 25%;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 15%;
 }
 
-.resume-title h1 {
+.profile {
+  width: 55%;
+}
+
+.resume-title .profile h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
+  font-size: 5vw;
   font-weight:900;
   text-transform: uppercase;
   color: #1f1f29;
@@ -39,15 +42,14 @@ header {
   letter-spacing: 0.08em;
 }
 
-
-.designation {
+.resume-title .profile .position {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 	text-align: auto;
-	font-size: 15px;
+	font-size: 1.0em;
 	font-weight: bold;
 	color:#2d3436;
-	margin-left: 100px;
+	text-align: center;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
@@ -77,14 +79,12 @@ a.btn-transparent{
 
 }
 
-
-
-
 hr {
     display: block;
     height: 1px;
     border-top: 4px solid #f2795f;
     margin-bottom: 0px;
+    margin-right: 150px;
     
     
     padding: 0;
@@ -112,16 +112,17 @@ hr {
 	color:#ff4d57;	
 }
 
+.about {
+  padding: 0 5% 5% 5%;
+}
+
 .about h2{
   text-transform: uppercase;
 }
 
-.about {
-  padding: 0 100px 100px 100px;
+.about p {
+  font-size: 1.0em;
 }
-
-
-
 
 
 
