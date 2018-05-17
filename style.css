@@ -19,9 +19,9 @@ body {
 header {
   position: relative;
   height: 510px;
-  background-image: url('img/cow.jpg');
+  background-image: url('img/profile.png');
   background-position: right top;
-  background-size: 30%;
+  background-size: 25%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -83,6 +83,9 @@ a.btn-transparent{
 	color:#2d3436;
 
 }
+
+
+
 
 hr {
     display: block;
