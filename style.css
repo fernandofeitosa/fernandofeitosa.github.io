@@ -81,6 +81,7 @@ header .border {
 	font-weight: bold;
 	color:#2d3436;
 	margin-left: 100px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 
@@ -88,18 +89,34 @@ hr {
     display: block;
     height: 1px;
     border-top: 4px solid #f2795f;
-    margin: 1em 0;
-    margin-left: 150px;
+    margin-bottom: 0px;
+    
+    
     padding: 0;
 }
 
+.social {
+	font-size: 2.0em;
 
+}
 
+.social a {
+	text-decoration: none;
+	opacity: 0.8;
+}
 
-@media all and (max-width: 479px) {
-  header .resume-title h2 {
-    font-size: 45px;
-  }
+.social a:link {
+	color:#222f3e;	
+}
+
+.social a:visited {
+	color:#ff4d57;	
+}
+
+.social a:hover {
+	color:#ff4d57;	
+}
+
 
 
 
