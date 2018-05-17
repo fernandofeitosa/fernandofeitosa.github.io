@@ -124,6 +124,14 @@ hr {
   font-size: 1.0em;
 }
 
+@media (max-width: 641px) { 
+  .container {
+    margin: 0px;
+    padding: 2% 5%;
+    border: 0px;
+    background: #f5f6fa;
+  } 
+}
 
 
 
